@@ -1,31 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Mukta:wght@200&family=Poppins:ital,wght@1,300&family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Lobster&family=Mukta:wght@200&family=Poppins:ital,wght@1,300&display=swap");
-.cajaContacto {
-  background-color: #435151;
-  border-radius: 30px;
-}
-.cajaContacto label {
-  color: white;
-}
-
-.tituloContacto {
-  font-family: "Gentium Book Plus", serif;
-  font-family: "Lobster", cursive;
-  font-family: "Mukta", sans-serif;
-  font-family: "Poppins", sans-serif;
-  font-size: 40px;
-  color: black;
-}
-
-.mapa {
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  margin: auto;
-}
-
 body {
   background-color: #353333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 h1 {
@@ -36,7 +17,7 @@ h1 {
   color: red;
 }
 
-.botonWsp img {
+.botonwsp img {
   width: 70px;
   position: fixed;
   bottom: 10px;
@@ -44,7 +25,7 @@ h1 {
   z-index: 4;
 }
 
-.cajaContainer, .cajaM {
+.cajacontainer, .cajam {
   color: black;
   border-radius: 30px;
   background-color: #7a7368;
@@ -58,15 +39,39 @@ h1 {
   font-weight: 600;
 }
 
-.contenidoInicio h2 {
+.contenidoinicio h2 {
   font-size: 40px;
 }
 
-.contenidoInicio p {
+.contenidoinicio p {
   font-size: 20px;
   font-weight: 700;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
+}
+
+.cajacontacto {
+  background-color: #435151;
+  border-radius: 30px;
+}
+.cajacontacto label {
+  color: white;
+}
+
+.titulocontacto {
+  font-family: "Gentium Book Plus", serif;
+  font-family: "Lobster", cursive;
+  font-family: "Mukta", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-size: 40px;
+  color: black;
+}
+
+.mapa {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
 }
 
 .auto {
@@ -161,33 +166,21 @@ h1 {
   margin: 0 2px;
 }
 
-.videoN {
+.videon {
   padding-left: 0;
 }
 
-.videoN iframe {
+.videon iframe {
   border-radius: 20px;
 }
 
-.cardsI p {
+.cardsi p {
   font-size: 15px;
   font-weight: 500;
   text-align: center;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 /*{
 
 }
-*/
-.videoN {
-  padding-left: 0;
-}
-
-.videoN iframe {
-  border-radius: 20px;
-}/*# sourceMappingURL=estilos.css.map */
+*//*# sourceMappingURL=estilos.css.map */

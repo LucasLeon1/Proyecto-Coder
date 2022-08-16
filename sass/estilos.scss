@@ -1,13 +1,13 @@
 
-@import "contacto";
-@import "footer";
+@import "variable";
 @import "general";
-@import "historia";
+@import "footer";
 @import "inicio";
-@import "mediaquery";
+@import "historia";
+@import "contacto";
 @import "reglamento";
 @import "automotores";
-@import "img";
+@import "mediaquery";
 
 /*{
 
@@ -18,10 +18,5 @@
 
 
 
-  .videoN {
-    padding-left: 0; }
-    .videoN iframe {
-      border-radius: 20px; }
-  
 
   
