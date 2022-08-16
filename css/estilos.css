@@ -28,7 +28,7 @@ h1 {
 .cajacontainer, .cajam {
   color: black;
   border-radius: 30px;
-  background-color: #7a7368;
+  background-color: #383E42;
 }
 
 .letra {
@@ -92,6 +92,16 @@ h1 {
 .auto .container {
   position: relative;
   z-index: 10;
+  padding: 50px;
+}
+
+.auto .container h2 {
+  font-weight: 600;
+  margin-bottom: 5px;
+  font-size: 30px;
+  position: relative;
+  padding-bottom: 5px;
+  font-family: "Poppins", sans-serif;
 }
 
 .auto .member {
@@ -121,7 +131,7 @@ h1 {
   transition: max-height 0.5s ease-in-out;
 }
 
-.auto .member h2 {
+.auto .member h3 {
   font-weight: 500;
   margin-bottom: 10px;
   font-size: 16px;
@@ -131,7 +141,7 @@ h1 {
   font-family: "Poppins", sans-serif;
 }
 
-.auto .member h2::after {
+.auto .member h3::after {
   content: "";
   position: absolute;
   display: block;
@@ -146,24 +156,6 @@ h1 {
   font-style: italic;
   display: block;
   font-size: 13px;
-}
-
-.auto .member .social {
-  margin-top: 15px;
-}
-
-.auto .member .social {
-  transition: color 0.3s;
-  color: #7a7368;
-}
-
-.auto .member .social {
-  color: #f7b733;
-}
-
-.auto .member .social i {
-  font-size: 16px;
-  margin: 0 2px;
 }
 
 .videon {
