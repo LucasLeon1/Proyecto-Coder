@@ -2,8 +2,12 @@
   .cajacontacto {
     background-color: #435151;
     border-radius: 30px; 
-     label {
+     
+    label {
       color: white; }
+      button{
+        background-color: #496063;
+      }
     }
   
   .titulocontacto {
@@ -14,9 +18,25 @@
     font-size: 40px;
     color: black;
   }
+
   
   .mapa {
     display: flex;
     justify-content: center;
     align-content: center;
     margin: auto; }
+   
+    .contacto{
+      h2, h3{
+        font-family: 'lobster', cursive;
+        border-bottom: red solid;
+      }
+  
+  
+      p{
+        font-size: 16px;
+        font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+    }
+  

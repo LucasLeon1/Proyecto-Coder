@@ -1,94 +1,46 @@
-.auto {
-    padding: 60px 0;
-    position: relative;
-  }
+
   
-  .auto::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    z-index: 9;
-  }
-  
-  .auto .container {
+  .containercards {
     position: relative;
     z-index: 10;
     padding: 50px;
+    color: black;
+    border-radius: 30px; 
+  background-color: #383E42;
+    
+   
   }
 
-  .auto .container h2 {
-    font-weight: 600;
-    margin-bottom: 5px;
-    font-size: 30px;
+     .containercards h2 {
     position: relative;
     padding-bottom: 5px;
-    font-family: "Poppins", sans-serif;
+
   }
   
   
   
-  .auto .member {
-    text-align: center;
-    margin-bottom: 80px;
-    position: relative;
+  
+
+  .reglamento {
+    background-color: #496063;
+    border-radius: 10px;
+    h2, h3{
+      font-weight: 600;
+      font-family: 'lobster', cursive;
+      border-bottom: red solid;
+    }
+    p{
+      font-weight: bold;
+        font-family: 'Josefin Sans', sans-serif;
+    }
   }
   
-  .auto .member .pic {
-    overflow: hidden;
-  }
-  
-  .auto .member .member-info {
-    position: absolute;
-    bottom: -80px;
-    left: 20px;
-    right: 20px;
-    background: #fff;
-    padding: 20px 0;
-    color: black;
-    font-family: 'Gentium Book Plus', serif;
-    font-family: 'Lobster';
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    
-    overflow: hidden;
-    transition: max-height 0.5s ease-in-out;
-  }
-  
-  .auto .member h3 {
-    font-weight: 500;
-    margin-bottom: 10px;
-    font-size: 16px;
-    color: #6c665c;
-    position: relative;
-    padding-bottom: 10px;
-    font-family: "Poppins", sans-serif;
-  }
-  
-  .auto .member h3::after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 50px;
-    height: 1px;
-    background: #f7b733;
-    bottom: 0;
-    left: calc(50% - 25px);
-  }
-  
-  .auto .member p {
-    font-style: italic;
-    display: block;
-    font-size: 13px;
-  }
   
  
 
   .videon {
-    padding-left: 0; }
+    padding-left: 0;
+ }
     .videon iframe {
       border-radius: 20px; }
   
