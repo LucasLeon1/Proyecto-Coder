@@ -1,4 +1,31 @@
 
+.primeraCaja {
+
+  img{
+    height: 95vh;
+  }
+
+  h1,h2 {
+    text-align: center;
+    font-family: 'lobster', cursive;
+    font-size: 50px;
+    color: black;
+    font-weight: 600;
+  }
+
+  p {
+    color: black;
+    font-size: 35px;
+    font-family: 'lobster', cursive;
+    font-weight: 600;
+  }
+}
+
+#carouselExampleCaptions {
+  width: 100%;
+}
+
+
 .contenidoinicio h2 {
 
     font-size: 40px;
@@ -13,5 +40,12 @@
   
 
 
+  .fondoinicio {
+   
+      h1 {
+    text-justify: initial;
+  
+    }
 
+  }
 

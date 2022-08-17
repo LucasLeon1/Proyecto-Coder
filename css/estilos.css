@@ -28,7 +28,37 @@ h1 {
 .cajacontainer, .cajam {
   color: black;
   border-radius: 30px;
-  background-color: #383E42;
+  background: rgba(255, 255, 255, 0.397);
+}
+
+/* Proyecto a fondo
+  .primerfondo {
+    background: url("../") center center no-repeat;
+    background-size: cover;
+  }
+  .segundofondo {
+    background: url("../") center center no-repeat;
+    background-size: cover;
+  }*/
+.primeraCaja img {
+  height: 95vh;
+}
+.primeraCaja h1, .primeraCaja h2 {
+  text-align: center;
+  font-family: "lobster", cursive;
+  font-size: 50px;
+  color: black;
+  font-weight: 600;
+}
+.primeraCaja p {
+  color: black;
+  font-size: 35px;
+  font-family: "lobster", cursive;
+  font-weight: 600;
+}
+
+#carouselExampleCaptions {
+  width: 100%;
 }
 
 .contenidoinicio h2 {
@@ -42,6 +72,15 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.fondoinicio h1 {
+  text-justify: initial;
+}
+
+.fondocontacto {
+  background: url("../images/IMG_9753.jpeg") center center repeat;
+  background-size: cover;
+}
+
 .cajacontacto {
   background-color: #435151;
   border-radius: 30px;
@@ -49,15 +88,22 @@ h1 {
 .cajacontacto label {
   color: white;
 }
+.cajacontacto ::-moz-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+}
+.cajacontacto :-ms-input-placeholder {
+  font-family: "Josefin Sans", sans-serif;
+}
+.cajacontacto ::placeholder {
+  font-family: "Josefin Sans", sans-serif;
+}
 .cajacontacto button {
   background-color: #496063;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .titulocontacto {
-  font-family: "Gentium Book Plus", serif;
-  font-family: "Lobster", cursive;
-  font-family: "Mukta", sans-serif;
-  font-family: "Poppins", sans-serif;
+  font-family: "lobster", cursive;
   font-size: 40px;
   color: black;
 }
@@ -107,6 +153,11 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.cajablanca {
+  background-color: #496063;
+  border-radius: 25px;
+}
+
 .videon {
   padding-left: 0;
 }
@@ -115,10 +166,24 @@ h1 {
   border-radius: 20px;
 }
 
+.fondoautomotores {
+  background: url("../images/IMG_9767.jpeg") center center repeat;
+  background-size: contain;
+}
+
 .cardsi p {
   font-size: 15px;
   font-weight: 500;
   text-align: center;
+}
+
+.automotores {
+  text-align: center;
+}
+.automotores h2 {
+  font-weight: 600;
+  font-family: "lobster", cursive;
+  border-bottom: #F95323 solid;
 }
 
 .zoom:hover {

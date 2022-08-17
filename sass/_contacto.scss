@@ -1,20 +1,29 @@
   
+
+    .fondocontacto {
+      
+        background: url("../images/IMG_9753.jpeg") center center repeat;
+        background-size:cover;
+      
+
+       }
   .cajacontacto {
     background-color: #435151;
     border-radius: 30px; 
      
     label {
       color: white; }
+      ::placeholder{
+        font-family: 'Josefin Sans', sans-serif;
+      }
       button{
         background-color: #496063;
+        font-family: 'Josefin Sans', sans-serif;
       }
     }
   
   .titulocontacto {
-    font-family: 'Gentium Book Plus', serif;
-    font-family: 'Lobster', cursive;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'lobster', cursive;
     font-size: 40px;
     color: black;
   }
