@@ -118,7 +118,8 @@ footer {
 .fotohistoria {
   border-radius: 100%;
   overflow: hidden;
-  width: 600px;
+  width: 550px;
+  margin-top: 5px;
 }
 
 .cajah {
