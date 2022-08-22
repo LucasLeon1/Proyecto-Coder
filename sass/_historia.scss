@@ -1,27 +1,21 @@
+
 .fondohistoria {
-
-    background: url("../images/pexels-kevin-bidwell-3013676.jpg") center center repeat;
-    background-size: contain;
-
-
+    background: url("../images/pexels-anna-kester-5352939.jpg") center center repeat;
+    background-size: cover;
   }
 
   .fotohistoria{
-
    border-radius: 100%;
    overflow: hidden;
-   width: 450px;
-
+   width: 600px;
   }
-  .contenidoi {
 
+  .contenidoi {
    @extend .contenidoinicio, .contenidoinicio ; 
- 
    }
 
    .cajah {
-
     @extend .cajacontainer, .cajam;
- 
+    background: rgba(59, 87, 88, 0.411);
   }
   

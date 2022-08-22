@@ -1,21 +1,17 @@
+  
   .fondocontacto {
-
     background: url("../images/IMG_9753.jpeg") center center repeat;
     background-size: cover;
-
-
   }
 
   .cajac {
-    @extend .cajacontainer, .cajam;
-    
-    }
-
+    @extend .cajacontainer,
+    .cajam;
+  }
 
   .cajacontacto {
     background-color: #4ea0a059;
     border-radius: 30px;
-    
 
     label {
       color: white;
@@ -37,7 +33,6 @@
     font-size: 40px;
   }
 
-
   .mapa {
     display: flex;
     justify-content: center;
@@ -46,8 +41,8 @@
   }
 
   .contacto {
-    h2,
-    h3 {
+
+    h2,h3 {
       font-family: 'lobster', cursive;
       border-bottom: red solid;
     }

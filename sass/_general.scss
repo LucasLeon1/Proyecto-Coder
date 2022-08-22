@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Mukta:wght@200&family=Poppins:ital,wght@1,300&family=Rubik+Moonrocks&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lobster&display=swap');
 
+$color-amarillo: #f7b733;
 
 * {
   margin: 0;
   padding: 0;
 }
-
 
 body {
   background-color: #353333;
@@ -25,8 +25,9 @@ h1 {
   font-family: 'Rubik Moonrocks';
   color: red;
 }
-li a{
- color: #f7b733 !important;
+
+li a {
+  color: #f7b733 !important;
 }
 
 .botonwsp img {
@@ -37,25 +38,21 @@ li a{
   z-index: 4;
 }
 
-.cajacontainer,
-.cajam {
+.cajacontainer,.cajam {
   color: black;
   border-radius: 30px;
   background: rgba(255, 255, 255, 0.13);
 }
-.letra {
- @include parrafos;
- font-size: 20px;
-}
 
+.letra {
+  @include parrafos;
+  font-size: 20px;
+}
 
 footer {
   width: 100%;
   margin-top: 200px;
 }
-
-
-
 
 /* Proyecto a fondo
   .primerfondo {

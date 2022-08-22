@@ -1,9 +1,7 @@
+
 .fondoinicio {
-
-  background: url("../images/pexels-алесь-усцінаў-11489908.jpg") center center repeat;
+  background: url("../images/pexels-chris-clark-9270395.jpg") center center repeat;
   background-size: cover;
-
-
 }
 
 .primeraCaja {
@@ -33,10 +31,8 @@
   width: 100%;
 }
 
+.contenidoinicio h2 {
 
-
-.contenidoinicio h2 {  
- 
   font-size: 44px;
   @include parrafos;
 }
@@ -51,6 +47,4 @@
 .letrai {
   font-size: 22px;
   @include parrafos;
- 
- }
- 
+}
