@@ -1,5 +1,11 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Mukta:wght@200&family=Poppins:ital,wght@1,300&family=Rubik+Moonrocks&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lobster&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-color: #353333;
 }
@@ -17,6 +23,10 @@ h1 {
   color: red;
 }
 
+li a {
+  color: #f7b733 !important;
+}
+
 .botonwsp img {
   width: 70px;
   position: fixed;
@@ -25,10 +35,22 @@ h1 {
   z-index: 4;
 }
 
-.cajacontainer, .cajam {
+.cajacontainer, .cajac, .cajah,
+.cajam {
   color: black;
   border-radius: 30px;
-  background: rgba(255, 255, 255, 0.397);
+  background: rgba(255, 255, 255, 0.13);
+}
+
+.letra {
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+}
+
+footer {
+  width: 100%;
+  margin-top: 200px;
 }
 
 /* Proyecto a fondo
@@ -40,10 +62,16 @@ h1 {
     background: url("../") center center no-repeat;
     background-size: cover;
   }*/
+.fondoinicio {
+  background: url("../images/pexels-алесь-усцінаў-11489908.jpg") center center repeat;
+  background-size: cover;
+}
+
 .primeraCaja img {
   height: 95vh;
 }
-.primeraCaja h1, .primeraCaja h2 {
+.primeraCaja h1,
+.primeraCaja h2 {
   text-align: center;
   font-family: "lobster", cursive;
   font-size: 50px;
@@ -61,19 +89,34 @@ h1 {
   width: 100%;
 }
 
-.contenidoinicio h2 {
-  font-size: 40px;
+.contenidoinicio h2, .contenidoi h2 {
+  font-size: 44px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.contenidoinicio p {
+.contenidoinicio p, .contenidoi p {
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 600;
   text-align: center;
   font-family: "Josefin Sans", sans-serif;
 }
 
-.fondoinicio h1 {
-  text-justify: initial;
+.letrai {
+  font-size: 22px;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.fondohistoria {
+  background: url("../images/pexels-kevin-bidwell-3013676.jpg") center center repeat;
+  background-size: contain;
+}
+
+.fotohistoria {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 450px;
 }
 
 .fondocontacto {
@@ -82,11 +125,12 @@ h1 {
 }
 
 .cajacontacto {
-  background-color: #435151;
+  background-color: rgba(78, 160, 160, 0.3490196078);
   border-radius: 30px;
 }
 .cajacontacto label {
   color: white;
+  font-family: "Josefin Sans", sans-serif;
 }
 .cajacontacto ::-moz-placeholder {
   font-family: "Josefin Sans", sans-serif;
@@ -105,7 +149,6 @@ h1 {
 .titulocontacto {
   font-family: "lobster", cursive;
   font-size: 40px;
-  color: black;
 }
 
 .mapa {
@@ -115,7 +158,8 @@ h1 {
   margin: auto;
 }
 
-.contacto h2, .contacto h3 {
+.contacto h2,
+.contacto h3 {
   font-family: "lobster", cursive;
   border-bottom: red solid;
 }
@@ -125,13 +169,18 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.fondoreglamento {
+  background: url("../images/pexels-andrey-karpov-5687983.jpg") center center repeat;
+  background-size: cover;
+}
+
 .containercards {
   position: relative;
   z-index: 10;
   padding: 50px;
   color: black;
   border-radius: 30px;
-  background-color: #383E42;
+  background: rgba(255, 255, 255, 0.089);
 }
 
 .containercards h2 {
@@ -140,10 +189,11 @@ h1 {
 }
 
 .reglamento {
-  background-color: #496063;
+  background-color: rgba(73, 96, 99, 0.6901960784);
   border-radius: 10px;
 }
-.reglamento h2, .reglamento h3 {
+.reglamento h2,
+.reglamento h3 {
   font-weight: 600;
   font-family: "lobster", cursive;
   border-bottom: red solid;
@@ -153,9 +203,10 @@ h1 {
   font-family: "Josefin Sans", sans-serif;
 }
 
-.cajablanca {
-  background-color: #496063;
-  border-radius: 25px;
+.tituloNosotros {
+  font-family: "lobster", cursive;
+  border-bottom: #f7b733 solid;
+  color: white;
 }
 
 .videon {
@@ -166,9 +217,16 @@ h1 {
   border-radius: 20px;
 }
 
+.letrar {
+  margin-top: 22px;
+  color: white;
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
+}
+
 .fondoautomotores {
-  background: url("../images/IMG_9767.jpeg") center center repeat;
-  background-size: contain;
+  background: url("../images/pexels-chris-clark-9270395.jpg") center center repeat;
+  background-size: cover;
 }
 
 .cardsi p {

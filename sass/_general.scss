@@ -1,36 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital@1&family=Mukta:wght@200&family=Poppins:ital,wght@1,300&family=Rubik+Moonrocks&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Lobster&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 
 body {
-    background-color: #353333;
-  }
+  background-color: #353333;
+}
 
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
-  h1 {
-    font-family: 'Gentium Book Plus', serif;
-    font-family: 'Mukta', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    font-family: 'Rubik Moonrocks';
-    color: red;
-  }
-  
-  .botonwsp img {
-    width: 70px;
-    position: fixed;
-    bottom: 10px;
-    right: 10px;
-    z-index: 4;
-  }
+h1 {
+  font-family: 'Gentium Book Plus', serif;
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik Moonrocks';
+  color: red;
+}
+li a{
+ color: #f7b733 !important;
+}
 
-  .cajacontainer, .cajam {
-    color: black;
-    border-radius: 30px; 
-    background: rgba(255, 255, 255, 0.397);
-  }
-  
+.botonwsp img {
+  width: 70px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  z-index: 4;
+}
+
+.cajacontainer,
+.cajam {
+  color: black;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.13);
+}
+.letra {
+ @include parrafos;
+ font-size: 20px;
+}
+
+
+footer {
+  width: 100%;
+  margin-top: 200px;
+}
+
+
+
 
 /* Proyecto a fondo
   .primerfondo {

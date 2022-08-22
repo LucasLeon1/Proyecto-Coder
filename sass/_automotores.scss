@@ -1,36 +1,28 @@
 .fondoautomotores {
-      
-  background: url("../images/IMG_9767.jpeg") center center repeat;
-  background-size:contain;
+  background: url("../images/pexels-chris-clark-9270395.jpg") center center repeat;
+  background-size:cover;
+}
 
+.cardsi p {
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+}
 
- }
- 
- 
- 
- .cardsi p {
-    font-size: 15px;
-    font-weight: 500;
-    text-align: center;
-   
-  
-  }
-  .automotores {
-    text-align: center;
-    h2{
-      font-weight: 600;
-      font-family: 'lobster', cursive;
-      border-bottom: #F95323 solid;
-      
-    }
-  
-  }
+.automotores {
+  text-align: center;
+  h2 {
+    font-weight: 600;
+    font-family: 'lobster', cursive;
+    border-bottom: #F95323 solid;
 
-  .zoom:hover {
-    transform: scale(1.1);
-  
   }
-  
-  .zoom {
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+.zoom {
   transition: transform 1s;
-  }
+}

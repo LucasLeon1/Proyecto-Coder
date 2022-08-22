@@ -1,0 +1,27 @@
+.fondohistoria {
+
+    background: url("../images/pexels-kevin-bidwell-3013676.jpg") center center repeat;
+    background-size: contain;
+
+
+  }
+
+  .fotohistoria{
+
+   border-radius: 100%;
+   overflow: hidden;
+   width: 450px;
+
+  }
+  .contenidoi {
+
+   @extend .contenidoinicio, .contenidoinicio ; 
+ 
+   }
+
+   .cajah {
+
+    @extend .cajacontainer, .cajam;
+ 
+  }
+  

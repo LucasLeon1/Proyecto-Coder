@@ -1,51 +1,60 @@
-  
+  .fondocontacto {
 
-    .fondocontacto {
-      
-        background: url("../images/IMG_9753.jpeg") center center repeat;
-        background-size:cover;
-      
+    background: url("../images/IMG_9753.jpeg") center center repeat;
+    background-size: cover;
 
-       }
-  .cajacontacto {
-    background-color: #435151;
-    border-radius: 30px; 
-     
-    label {
-      color: white; }
-      ::placeholder{
-        font-family: 'Josefin Sans', sans-serif;
-      }
-      button{
-        background-color: #496063;
-        font-family: 'Josefin Sans', sans-serif;
-      }
+
+  }
+
+  .cajac {
+    @extend .cajacontainer, .cajam;
+    
     }
-  
+
+
+  .cajacontacto {
+    background-color: #4ea0a059;
+    border-radius: 30px;
+    
+
+    label {
+      color: white;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    ::placeholder {
+      font-family: 'Josefin Sans', sans-serif;
+    }
+
+    button {
+      background-color: #496063;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }
+
   .titulocontacto {
     font-family: 'lobster', cursive;
     font-size: 40px;
-    color: black;
   }
 
-  
+
   .mapa {
     display: flex;
     justify-content: center;
     align-content: center;
-    margin: auto; }
-   
-    .contacto{
-      h2, h3{
-        font-family: 'lobster', cursive;
-        border-bottom: red solid;
-      }
-  
-  
-      p{
-        font-size: 16px;
-        font-weight: bold;
-        font-family: 'Josefin Sans', sans-serif;
-      }
+    margin: auto;
+  }
+
+  .contacto {
+    h2,
+    h3 {
+      font-family: 'lobster', cursive;
+      border-bottom: red solid;
     }
-  
+
+    p {
+      font-size: 16px;
+      font-weight: bold;
+      font-family: 'Josefin Sans', sans-serif;
+    }
+  }

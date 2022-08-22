@@ -1,50 +1,61 @@
 
-  
-  .containercards {
-    position: relative;
-    z-index: 10;
-    padding: 50px;
-    color: black;
-    border-radius: 30px; 
-  background-color: #383E42;
-    
-   
-  }
 
-     .containercards h2 {
-    position: relative;
-    padding-bottom: 5px;
+.fondoreglamento {
+  background: url("../images/pexels-andrey-karpov-5687983.jpg") center center repeat;
+  background-size: cover;
+}
+
+.containercards {
+  position: relative;
+  z-index: 10;
+  padding: 50px;
+  color: black;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.089);
+}
+
+.containercards h2 {
+  position: relative;
+  padding-bottom: 5px;
+}
+
+
+.reglamento {
+  background-color: #496063b0;
+  border-radius: 10px;
+
+   h2,
+   h3 {
+    font-weight: 600;
+    font-family: 'lobster', cursive;
+    border-bottom: red solid;
+  }
+   p {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
 
   }
-  
+}
 
-  .reglamento {
-    background-color: #496063;
-    border-radius: 10px;
-    
-    h2, h3{
-      font-weight: 600;
-      font-family: 'lobster', cursive;
-      border-bottom: red solid;
-      
-    }
-    p{
-      font-weight: bold;
-        font-family: 'Josefin Sans', sans-serif;
-        
-    }
-  }
-  
-  .cajablanca {
-    background-color: #496063;
-    border-radius: 25px; 
-     }
-  
-  .videon {
-    padding-left: 0;
+.tituloNosotros{
+  font-family: 'lobster', cursive;
+  border-bottom:  $color-amarillo solid ;
+
+  color: white;
+}
+
+
+.videon {
+  padding-left: 0;
+}
+
+.videon iframe {
+  border-radius: 20px;
+}
+
+.letrar {
+  margin-top: 22px;
+color: white;
+  @include parrafos;
+ 
  }
-    .videon iframe {
-      border-radius: 20px; }
-  
-
-

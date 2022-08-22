@@ -1,11 +1,19 @@
+.fondoinicio {
+
+  background: url("../images/pexels-алесь-усцінаў-11489908.jpg") center center repeat;
+  background-size: cover;
+
+
+}
 
 .primeraCaja {
 
-  img{
+  img {
     height: 95vh;
   }
 
-  h1,h2 {
+  h1,
+  h2 {
     text-align: center;
     font-family: 'lobster', cursive;
     font-size: 50px;
@@ -26,26 +34,23 @@
 }
 
 
-.contenidoinicio h2 {
 
-    font-size: 40px;
-  }
-  
+.contenidoinicio h2 {  
+ 
+  font-size: 44px;
+  @include parrafos;
+}
+
 .contenidoinicio p {
-    font-size: 20px;
-    font-weight: 700;
-    text-align: center;
-    font-family: 'Josefin Sans', sans-serif;
-  }
-  
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+}
 
-
-  .fondoinicio {
-   
-      h1 {
-    text-justify: initial;
-  
-    }
-
-  }
-
+.letrai {
+  font-size: 22px;
+  @include parrafos;
+ 
+ }
+ 
