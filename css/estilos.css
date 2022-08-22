@@ -106,6 +106,10 @@ footer {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.imgi {
+  border-radius: 65px;
+}
+
 .fondohistoria {
   background: url("../images/pexels-anna-kester-5352939.jpg") center center repeat;
   background-size: cover;
