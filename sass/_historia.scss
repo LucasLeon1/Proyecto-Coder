@@ -1,22 +1,54 @@
-
 .fondohistoria {
-    background: url("../images/pexels-anna-kester-5352939.jpg") center center repeat;
-    background-size: cover;
+  background: url("../images/pexels-anna-kester-5352939.jpg") center center repeat;
+  background-size: cover;
+}
+
+.fotohistoria {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 550px;
+  margin-top: 5px
+}
+
+
+.contenidoi {
+  @extend .contenidoinicio,
+  .contenidoinicio;
+}
+
+.cajah {
+  @extend .cajacontainer,
+  .cajam;
+  background: rgba(59, 87, 88, 0);
+
+  h2 {
+    border-bottom: red solid;
+
+  }
+}
+
+.containerh {
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 18px;
+}
+
+.historia {
+  background: rgba(255, 255, 255, 0.329);
+  border-radius: 4px;
+  color: black;
+
+  .fotoh {
+    border-radius: 40%;
+
   }
 
-  .fotohistoria{
-   border-radius: 100%;
-   overflow: hidden;
-   width: 550px;
-   margin-top: 5px
-  }
+  h2,
+  p {
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
 
-  .contenidoi {
-   @extend .contenidoinicio, .contenidoinicio ; 
-   }
-
-   .cajah {
-    @extend .cajacontainer, .cajam;
-    background: rgba(59, 87, 88, 0.411);
   }
-  
+}

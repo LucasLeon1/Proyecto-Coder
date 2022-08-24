@@ -22,8 +22,9 @@ h1 {
   color: red;
 }
 
-li a {
-  color: #f7b733 !important;
+.titulosad {
+  font-family: "lobster", cursive;
+  color: red;
 }
 
 .botonwsp img {
@@ -34,10 +35,10 @@ li a {
   z-index: 4;
 }
 
-.cajacontainer, .cajac, .cajah, .cajam {
+.cajacontainer, .cajac, .cajah,
+.cajam {
   color: black;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.13);
+  background: rgba(255, 255, 255, 0);
 }
 
 .letra {
@@ -48,7 +49,11 @@ li a {
 
 footer {
   width: 100%;
-  margin-top: 200px;
+  margin-top: 150px;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: #f7b733;
 }
 
 /* Proyecto a fondo
@@ -107,7 +112,7 @@ footer {
 }
 
 .imgi {
-  border-radius: 65px;
+  border-radius: 30%;
 }
 
 .fondohistoria {
@@ -123,7 +128,32 @@ footer {
 }
 
 .cajah {
-  background: rgba(59, 87, 88, 0.411);
+  background: rgba(59, 87, 88, 0);
+}
+.cajah h2 {
+  border-bottom: red solid;
+}
+
+.containerh {
+  position: relative;
+  z-index: 0;
+  padding: 20px;
+  background: rgba(255, 255, 255, 0);
+  font-size: 18px;
+}
+
+.historia {
+  background: rgba(255, 255, 255, 0.329);
+  border-radius: 4px;
+  color: black;
+}
+.historia .fotoh {
+  border-radius: 40%;
+}
+.historia h2,
+.historia p {
+  font-weight: bold;
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .fondocontacto {
@@ -136,7 +166,7 @@ footer {
   border-radius: 30px;
 }
 .cajacontacto label {
-  color: white;
+  color: black;
   font-family: "Josefin Sans", sans-serif;
 }
 .cajacontacto ::-moz-placeholder {
@@ -165,7 +195,8 @@ footer {
   margin: auto;
 }
 
-.contacto h2, .contacto h3 {
+.contacto h2,
+.contacto h3 {
   font-family: "lobster", cursive;
   border-bottom: red solid;
 }
@@ -185,8 +216,7 @@ footer {
   z-index: 10;
   padding: 50px;
   color: black;
-  border-radius: 30px;
-  background: rgba(255, 255, 255, 0.089);
+  background: rgba(255, 255, 255, 0);
 }
 
 .containercards h2 {
