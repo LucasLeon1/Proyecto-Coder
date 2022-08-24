@@ -10,7 +10,6 @@
   margin-top: 5px
 }
 
-
 .contenidoi {
   @extend .contenidoinicio,
   .contenidoinicio;
@@ -23,7 +22,6 @@
 
   h2 {
     border-bottom: red solid;
-
   }
 }
 
@@ -42,13 +40,11 @@
 
   .fotoh {
     border-radius: 40%;
-
   }
 
   h2,
   p {
     font-weight: bold;
     font-family: 'Josefin Sans', sans-serif;
-
   }
 }
