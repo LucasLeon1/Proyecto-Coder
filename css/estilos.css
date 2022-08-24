@@ -115,6 +115,10 @@ footer {
   border-radius: 30%;
 }
 
+.navcolor {
+  color: black;
+}
+
 .fondohistoria {
   background: url("../images/pexels-anna-kester-5352939.jpg") center center repeat;
   background-size: cover;
