@@ -11,15 +11,13 @@
 }
 
 .contenidoi {
-  @extend .contenidoinicio,
-  .contenidoinicio;
+  @extend .contenidoinicio;
 }
 
 .cajah {
   @extend .cajacontainer,
   .cajam;
-  background: rgba(59, 87, 88, 0);
-
+ 
   h2 {
     border-bottom: red solid;
   }
