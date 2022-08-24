@@ -27,6 +27,16 @@ h1 {
   color: red;
 }
 
+.tituloa {
+  font-family: "lobster", cursive;
+  color: 0;
+}
+
+.navcolor {
+  color: white;
+  font-weight: bold;
+}
+
 .botonwsp img {
   width: 70px;
   position: fixed;
@@ -52,8 +62,8 @@ footer {
   margin-top: 150px;
 }
 
-.navbar-nav .nav-item .nav-link {
-  color: #f7b733;
+.co .coo .cooo {
+  color: white;
 }
 
 /* Proyecto a fondo
@@ -113,10 +123,6 @@ footer {
 
 .imgi {
   border-radius: 30%;
-}
-
-.navcolor {
-  color: black;
 }
 
 .fondohistoria {
