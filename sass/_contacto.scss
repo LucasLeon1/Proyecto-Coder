@@ -53,3 +53,21 @@
       font-family: 'Josefin Sans', sans-serif;
     }
   }
+
+  .acordionPropio {
+    border: 20px;
+  }
+  
+  
+  .tituloPreguntas {
+    color: black;
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    border-bottom: $color-amarillo solid;
+  }
+
+  .cajaPreguntas {
+    background-color: #4ea0a059;
+    border-radius: 30px;
+
+  }

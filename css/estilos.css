@@ -204,6 +204,22 @@ footer {
   font-family: "Josefin Sans", sans-serif;
 }
 
+.acordionPropio {
+  border: 20px;
+}
+
+.tituloPreguntas {
+  color: black;
+  font-size: 40px;
+  font-family: "Josefin Sans", sans-serif;
+  border-bottom: #f7b733 solid;
+}
+
+.cajaPreguntas {
+  background-color: rgba(78, 160, 160, 0.3490196078);
+  border-radius: 30px;
+}
+
 .fondoreglamento {
   background: url("../images/pexels-andrey-karpov-5687983.jpg") center center repeat;
   background-size: cover;
