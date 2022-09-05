@@ -31,7 +31,9 @@ h1 {
   color: white;
   font-weight: bold;
 }
-
+.barra {
+margin-right: 260px;
+}
 
 .botonwsp img {
   width: 70px;
@@ -59,6 +61,9 @@ footer {
 
 .co .coo .cooo {
   color: white;
+  &:hover{
+    color: $color-amarillo;
+  }
 }
 
 /* Proyecto a fondo
