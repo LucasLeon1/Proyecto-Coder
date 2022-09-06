@@ -56,7 +56,33 @@ margin-right: 260px;
 
 footer {
   width: 100%;
-  margin-top: 150px;
+  margin-top: 100px;
+  font-weight: bold;
+
+  p {
+    @include parrafos;
+    font-family: 'lobster';
+    font-size: 18px;
+  }
+  .textof {
+   color: white;
+  }
+
+  h3{
+    @include parrafos;
+    font-size: 20px;
+    border-bottom: 2px solid $color-amarillo;
+  }
+  h4{
+    @include parrafos;
+    font-size: 20px;
+    border-bottom: 2px solid $color-amarillo;
+  }
+
+  i {
+    @include parrafos;
+  }
+
 }
 
 .co .coo .cooo {
