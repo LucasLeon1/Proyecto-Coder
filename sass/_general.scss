@@ -17,7 +17,6 @@ img {
   height: auto;
 }
 
-
 h1 {
   color: red;
 }
@@ -31,8 +30,9 @@ h1 {
   color: white;
   font-weight: bold;
 }
+
 .barra {
-margin-right: 260px;
+  margin-right: 260px;
 }
 
 .botonwsp img {
@@ -64,19 +64,21 @@ footer {
     font-family: 'lobster';
     font-size: 18px;
   }
+
   .textof {
-   color: white;
+    color: white;
   }
 
-  h3{
+  h3 {
     @include parrafos;
     font-size: 20px;
-    border-bottom: 2px solid $color-amarillo;
+    border-bottom: 2px solid #F95323;
   }
-  h4{
+
+  h4 {
     @include parrafos;
     font-size: 20px;
-    border-bottom: 2px solid $color-amarillo;
+    border-bottom: 2px solid #F95323;
   }
 
   i {
@@ -87,10 +89,12 @@ footer {
 
 .co .coo .cooo {
   color: white;
-  &:hover{
+
+  &:hover {
     color: $color-amarillo;
   }
 }
+
 
 /* Proyecto a fondo
   .primerfondo {

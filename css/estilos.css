@@ -70,21 +70,17 @@ footer h3 {
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
-  border-bottom: 2px solid #f7b733;
+  border-bottom: 2px solid #F95323;
 }
 footer h4 {
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
   font-size: 20px;
-  border-bottom: 2px solid #f7b733;
+  border-bottom: 2px solid #F95323;
 }
 footer i {
   font-weight: bold;
   font-family: "Josefin Sans", sans-serif;
-}
-footer .nav-link {
-  text-decoration: none;
-  color: black;
 }
 
 .co .coo .cooo {
@@ -166,7 +162,7 @@ footer .nav-link {
 }
 
 .cajah h2 {
-  border-bottom: red solid;
+  border-bottom: #F95323 solid;
 }
 
 .containerh {
@@ -233,7 +229,7 @@ footer .nav-link {
 .contacto h2,
 .contacto h3 {
   font-family: "lobster", cursive;
-  border-bottom: red solid;
+  border-bottom: #F95323 solid;
 }
 .contacto p {
   font-size: 16px;
@@ -249,7 +245,7 @@ footer .nav-link {
   color: black;
   font-size: 40px;
   font-family: "Josefin Sans", sans-serif;
-  border-bottom: #f7b733 solid;
+  border-bottom: #F95323 solid;
 }
 
 .cajaPreguntas {
@@ -283,7 +279,7 @@ footer .nav-link {
 .reglamento h3 {
   font-weight: 600;
   font-family: "lobster", cursive;
-  border-bottom: red solid;
+  border-bottom: #F95323 solid;
 }
 .reglamento p {
   font-weight: bold;
@@ -292,7 +288,7 @@ footer .nav-link {
 
 .titulorv {
   font-family: "lobster", cursive;
-  border-bottom: #f7b733 solid;
+  border-bottom: #F95323 solid;
   color: white;
 }
 
