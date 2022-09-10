@@ -286,11 +286,6 @@ footer i {
   font-family: "Josefin Sans", sans-serif;
 }
 
-@media (max-width: 500px) {
-  .reglamento {
-    background-color: rgba(73, 96, 99, 0.3098039216);
-  }
-}
 .titulorv {
   font-family: "lobster", cursive;
   border-bottom: #F95323 solid;
