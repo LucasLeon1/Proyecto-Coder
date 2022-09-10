@@ -17,7 +17,7 @@
 }
 
 .reglamento {
-  background-color: #496063b0;
+  background-color: #67888db0;
   border-radius: 10px;
 
   h2,
@@ -33,6 +33,19 @@
 
   }
 }
+
+
+@media (max-width: 500px){
+
+  .reglamento {
+    background-color: #4960634f;
+    
+  }
+  
+   
+}
+
+
 
 .titulorv {
   font-family: 'lobster', cursive;
